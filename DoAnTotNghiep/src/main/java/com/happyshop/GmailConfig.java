@@ -15,8 +15,8 @@ public class GmailConfig {
 		sender.setDefaultEncoding("utf-8");
 		sender.setHost("smtp.gmail.com");
 		sender.setPort(587);
-		sender.setUsername("Happyshopsuport2021@gmail.com");
-		sender.setPassword("@Happyshopsuport2021");
+		sender.setUsername("trungphanatg98@gmail.com");
+		sender.setPassword("Trungphan0122");
 		Properties props=sender.getJavaMailProperties();
 		props.setProperty("mail.transport.protocol","smtp");
 		props.setProperty("mail.smtp.auth","true");

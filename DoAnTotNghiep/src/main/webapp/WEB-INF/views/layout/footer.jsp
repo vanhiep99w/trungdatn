@@ -70,7 +70,7 @@
               <div class="col-smx-3" style="width: 355px;">
                 <h5>Địa chỉ</h5>
                 <p><i class="fa fa-home" style="font-size: 22px;"></i>&nbsp;&nbsp;Địa chỉ : 173 Hàm Nghi, TP.Đà Nẵng</p>
-                <p><i class="fa fa-envelope-open" style="font-size: 22px;"></i>&nbsp;&nbsp;Email : happyshopsupport2021@gmail.com</p>
+                <p><i class="fa fa-envelope-open" style="font-size: 22px;"></i>&nbsp;&nbsp;Email : trungphanatg98@gmail.com</p>
                 <p><i class="fa fa-volume-control-phone" style="font-size: 22px;"></i>&nbsp;&nbsp;Điện thoại   : 0382956060</p><hr>
               
               </div>
