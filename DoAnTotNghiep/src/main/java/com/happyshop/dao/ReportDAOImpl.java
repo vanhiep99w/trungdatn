@@ -31,10 +31,10 @@ public class ReportDAOImpl implements ReportDAO {
 		return list;
 
 	}
-
+	
 	@Override
 	public List<Object[]> revenueByCategory() {
-		String hql = "SELECT d.product.category.nameVN,SUM(d.quantity),SUM(d.unitPrice*d.quantity),MIN(d.unitPrice),MAX(d.unitPrice),AVG(d.unitPrice) FROM OrderDetail d GROUP BY d.product.category.nameVN";
+		String hql = "SELECT d.product.name,SUM(d.quantity),SUM(d.unitPrice*d.quantity),MIN(d.unitPrice),MAX(d.unitPrice),AVG(d.unitPrice) FROM OrderDetail d GROUP BY d.product.name";
 
 		Session session=factory.getCurrentSession();
 		TypedQuery<Object[]> query=session.createQuery(hql,Object[].class);
@@ -42,6 +42,17 @@ public class ReportDAOImpl implements ReportDAO {
 		return list;
 
 	}
+
+//	@Override
+//	public List<Object[]> revenueByCategory() {
+//		String hql = "SELECT d.product.category.nameVN,SUM(d.quantity),SUM(d.unitPrice*d.quantity),MIN(d.unitPrice),MAX(d.unitPrice),AVG(d.unitPrice) FROM OrderDetail d GROUP BY d.product.category.nameVN";
+//
+//		Session session=factory.getCurrentSession();
+//		TypedQuery<Object[]> query=session.createQuery(hql,Object[].class);
+//		List<Object[]> list=query.getResultList();
+//		return list;
+//
+//	}
 
 	@Override
 	public List<Object[]> revenueByCustomer() {

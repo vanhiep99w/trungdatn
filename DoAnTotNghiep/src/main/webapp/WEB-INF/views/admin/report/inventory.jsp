@@ -26,7 +26,7 @@
 							<tr>
 								<th>Loại</th>
 								<th>Số lượng</th>
-								<th>Giá</th>
+								<th>Tổng Giá</th>
 								<th>Thấp nhất</th>
 								<th>Cao nhất</th>
 								<th>Trung bình</th>
